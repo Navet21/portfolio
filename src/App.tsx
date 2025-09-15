@@ -1,5 +1,8 @@
 import Header from "./components/Header";
+import Experience from "./sections/Experience";
 import Hero from "./sections/Hero";
+import Projects from "./sections/Projects";
+import Skills from "./sections/Skills";
 
 export default function App() {
   return (
@@ -17,6 +20,9 @@ export default function App() {
 
       <Header />
       <Hero />
+      <Skills />
+      <Experience/>
+      <Projects />
     </div>
   );
 }

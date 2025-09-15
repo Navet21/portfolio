@@ -43,10 +43,10 @@ export default function Header() {
         </nav>
 
         <div className="hidden md:flex items-center gap-3 text-neutral-300">
-          <a href="https://github.com/Navet21" aria-label="GitHub" className="hover:text-white transition">
+          <a href="https://github.com/Navet21" target="_blank" aria-label="GitHub" className="hover:text-white transition">
             <Github className="h-5 w-5" />
           </a>
-          <a href="https://linkedin.com/in/navet21" aria-label="LinkedIn" className="hover:text-white transition">
+          <a href="https://linkedin.com/in/navet21" target="_blank" aria-label="LinkedIn" className="hover:text-white transition">
             <Linkedin className="h-5 w-5" />
           </a>
         </div>
