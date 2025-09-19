@@ -1,15 +1,34 @@
+import ProjectCard from "../components/ProjectCard";
+
+const projects = [
+  {
+    title: "BioCycle",
+    description:
+      "BioCycle es una aplicación educativa desarrollada con un compañero. Su objetivo es llevar el control de los registros del compostaje, ayudando al usuario a obtener mejores resultados en el proceso. El back esta hecho con Laravel , usando Orion para la creación todos los endpoints en modo API, el front está hecho con React. Todo fue desplegado en un VPS para que sea en un entorno más sólido y cercano a lo que sería producción",
+    images: [
+      "/BioCycle/Composteras.png",
+      "/BioCycle/Formulario.png",
+      "/BioCycle/Login.png",
+      "/BioCycle/Temperatura.png",
+    ],
+    techs: ["Laravel", "React", "Vps"],
+    demoUrl: "https://biocycle.informaticamajada.es/",
+    privateCode: true,
+  },
+];
+
 const Projects = () => {
   return (
-    <section id="proyectos" className="relative w-full border-t border-white/10">
+    <section id="projects" className="relative w-full bg-neutral-950">
       <div className="relative mx-auto max-w-6xl px-4 py-20">
         <h2 className="text-center text-3xl md:text-4xl font-bold">Proyectos</h2>
-        <div className="mx-auto mt-3 h-1 w-40 bg-purple-500 rounded" />
+        <div className="mx-auto mt-3 h-1 w-full bg-purple-500 rounded" />
 
-        <p className="mt-6 text-center text-neutral-400">
-          Aún sin proyectos. Pronto añadiré los primeros.
-        </p>
-
-        <div className="mt-10 grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
+        {/* En lugar de grid → stack vertical */}
+        <div className="mt-12 space-y-16">
+          {projects.map((project) => (
+            <ProjectCard key={project.title} {...project} />
+          ))}
         </div>
       </div>
     </section>
