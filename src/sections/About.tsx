@@ -1,3 +1,7 @@
+
+
+const base = import.meta.env.BASE_URL;
+
 const About = () => {
   return (
     <section id="about" className="relative w-full bg-neutral-950">
@@ -8,7 +12,7 @@ const About = () => {
         <div className="mt-12 grid md:grid-cols-2 gap-10 items-center">
           <div className="flex justify-center">
             <img
-              src="https://via.placeholder.com/400x400"
+              src={`${base}/placeholder.png`}
               alt="Tu foto"
               className="w-64 h-64 md:w-80 md:h-80 object-cover rounded-lg shadow-lg"
             />
