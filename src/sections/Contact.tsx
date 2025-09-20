@@ -14,7 +14,7 @@ const Contact = () => {
 
             <div className="mt-6 flex justify-center gap-6">
             <a
-                href="mailto:tuemail@ejemplo.com"
+                href="mailto:navet21dev@gmail.com"
                 className="text-neutral-400 hover:text-white transition"
                 aria-label="Email"
             >
