@@ -1,3 +1,6 @@
+const base = import.meta.env.BASE_URL;
+const mnxImage = `${base}/mnx.png`
+
 const Experience = () => {
   return (
     <section id="experiencia"className="relative w-full bg-neutral-950">
@@ -9,7 +12,7 @@ const Experience = () => {
           <div className="rounded-2xl border border-white/10 bg-white/5 p-6 flex flex-col md:flex-row gap-6 items-start">
             <div className="flex-shrink-0">
               <img
-                src="/mnx.png" 
+                src={mnxImage}
                 alt="MNX Online logo"
                 className="h-16 w-16 object-contain"
               />

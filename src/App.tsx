@@ -6,7 +6,8 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Contact from './sections/Contact';
 
-const heroUrl = new URL("/background2.jpg", import.meta.env.BASE_URL).href
+const base = import.meta.env.BASE_URL;
+const heroUrl = `${base}/background2.jpg`
 
 export default function App() {
   return (
