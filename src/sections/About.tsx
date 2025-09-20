@@ -19,7 +19,7 @@ const About = () => {
               Soy un <span className="font-semibold">Programador Junior Full Stack</span> que creció 
               rodeado de consolas y ordenadores, lo que despertó mi curiosidad por la tecnología. 
               Animado por amigos, probé la programación y descubrí que era lo mío, así que decidí 
-              formarme en el <span className="font-semibold">Grado de Desarrollo de Aplicaciones Web</span>.
+              formarme en el <span className="font-semibold">Grado Superior de Desarrollo de Aplicaciones Web</span>.
             </p>
 
             <p>
