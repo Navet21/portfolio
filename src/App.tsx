@@ -7,11 +7,11 @@ import Skills from "./sections/Skills";
 import Contact from './sections/Contact';
 
 const base = import.meta.env.BASE_URL;
-const heroUrl = `${base}/background2.jpg`
+const heroUrl = `${base}background2.jpg`
 
 export default function App() {
   return (
-    <div className="relative min-h-screen bg-neutral-950 text-white">
+    <div className="relative min-h-screen bg-neutral-950 text-white"> 
       <Hero
         imageUrl={heroUrl}
         name="Pablo Santana Suárez"

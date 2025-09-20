@@ -23,7 +23,7 @@ const Experience = () => {
               Marzo 2023 - Mayo 2023 (3 meses, prácticas)
             </p>
 
-            <p className="mt-3 text-neutral-300 leading-relaxed">
+            <p className="mt-3 text-neutral-300 leading-relaxed text-justify">
               Durante mis prácticas en <span className="font-semibold">MNX Online</span> participé en proyectos de desarrollo para empresas de distintos sectores, lo que me permitió adaptarme a diferentes necesidades y contextos.  
               En el <span className="font-semibold">front</span>, comencé traduciendo componentes de Ionos y más adelante desarrollé <span className="font-semibold">interfaces limpias y usables con Angular</span> para distintos proyectos.  
               En el <span className="font-semibold">back</span>, trabajé con <span className="font-semibold">NestJS</span> creando <span className="font-semibold">APIs con lógica compleja</span> y desarrollando <span className="font-semibold">seeders</span> que automatizaban la inserción de datos desde ficheros Excel.  

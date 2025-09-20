@@ -10,7 +10,6 @@ const links: LinkItem[] = [
   { href: "#about", label: "Sobre mí" },
   { href: "#skills", label: "Tecnologías" },
   { href: "#projects", label: "Proyectos" },
-  { href: "#contact", label: "Contáctame" },
 ];
 
 export default function PortFolioHeader() {
@@ -47,10 +46,6 @@ export default function PortFolioHeader() {
             <Linkedin className="h-5 w-5" />
           </a>
         </div>
-
-        <button className="md:hidden inline-flex items-center gap-2 px-3 py-2 text-sm text-neutral-300">
-          Menu
-        </button>
       </div>
     </header>
   );

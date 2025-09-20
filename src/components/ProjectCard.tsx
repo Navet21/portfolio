@@ -64,7 +64,7 @@ return (
             </div>
 
             <h3 className="text-2xl font-bold text-white">{title}</h3>
-            <p className="mt-3 text-neutral-300 text-base leading-relaxed">
+            <p className="mt-3 text-neutral-300 text-base leading-relaxed text-justify">
             {description}
             </p>
 
