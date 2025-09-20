@@ -5,12 +5,12 @@ const projects = [
     title: "BioCycle",
     description:
       "BioCycle es una aplicación educativa desarrollada con un compañero. Su objetivo es llevar el control de los registros del compostaje, ayudando al usuario a obtener mejores resultados en el proceso. El back esta hecho con Laravel , usando Orion para la creación todos los endpoints en modo API, el front está hecho con React. Todo fue desplegado en un VPS para que sea en un entorno más sólido y cercano a lo que sería producción",
-    images: [
-      "/BioCycle/Composteras.png",
-      "/BioCycle/Formulario.png",
-      "/BioCycle/Login.png",
-      "/BioCycle/Temperatura.png",
-    ],
+    images : [
+      new URL("/BioCycle/Composteras.png", import.meta.env.BASE_URL).href,
+      new URL("/BioCycle/Formulario.png", import.meta.env.BASE_URL).href,
+      new URL("/BioCycle/Login.png", import.meta.env.BASE_URL).href,
+      new URL("/BioCycle/Temperatura.png", import.meta.env.BASE_URL).href,
+  ],
     techs: ["Laravel", "React", "Vps"],
     demoUrl: "https://biocycle.informaticamajada.es/",
     privateCode: true,

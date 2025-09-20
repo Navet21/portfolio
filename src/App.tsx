@@ -6,11 +6,13 @@ import Projects from "./sections/Projects";
 import Skills from "./sections/Skills";
 import Contact from './sections/Contact';
 
+const heroUrl = new URL("/background2.jpg", import.meta.env.BASE_URL).href
+
 export default function App() {
   return (
     <div className="relative min-h-screen bg-neutral-950 text-white">
       <Hero
-        imageUrl="/background2.jpg"
+        imageUrl={heroUrl}
         name="Pablo Santana Suárez"
         subtitle="Junior Full Stack Developer"
       />
