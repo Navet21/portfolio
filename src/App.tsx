@@ -15,13 +15,14 @@ export default function App() {
       <Hero
         imageUrl={heroUrl}
         name="Pablo Santana Suárez"
-        subtitle="Junior Full Stack Developer"
+        title="Junior Backend Developer"
+        tagline="Especializado en NestJS, Docker y despliegue de aplicaciones reales en producción con CI/CD"
       />
       <PortFolioHeader/>
       <About />
       <Skills />
-      <Experience />
       <Projects />
+      <Experience />
       <Contact/>
     </div>
   );

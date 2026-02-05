@@ -17,6 +17,23 @@ const projects = [
     demoUrl: "https://biocycle.informaticamajada.es/",
     privateCode: true,
   },
+  {
+  title: "BoardLab",
+  description:
+    "Aplicación de entrenamiento de poker orientada al razonamiento real en mesa. El sistema presenta situaciones de juego y evalúa decisiones del usuario, explicando el porqué de cada resultado en lugar de limitarse a cálculos de equity. El backend está desarrollado en NestJS siguiendo una arquitectura modular y orientada a dominio, con lógica propia para el análisis de manos y sesiones de entrenamiento. El frontend en React consume la API y se centra en una experiencia clara y didáctica. Todo el sistema está dockerizado y desplegado en un VPS con Caddy como reverse proxy y CI/CD automatizado mediante GitHub Actions.",
+  images: [
+    `${base}BoardLab/Home.png`,
+    `${base}BoardLab/OutsTrainer.png`,
+    `${base}BoardLab/TextureTrainer.png`
+  ],
+  techs: ["NestJS", "React", "Docker", "Caddy", "CI/CD"],
+  demoUrl: "https://board-lab.navet21dev.es",
+  codeUrl: "https://github.com/Navet21/poker-training-frontend",
+  codeUrl2: "https://github.com/Navet21/poker-training-backend",
+  featured: true,
+}
+
+
 ];
 
 const Projects = () => {
