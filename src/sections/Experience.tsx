@@ -1,5 +1,5 @@
 const base = import.meta.env.BASE_URL;
-const mnxImage = `${base}/mnx.png`;
+const mnxImage = `${base}mnx.png`;
 
 const Experience = () => {
   return (
