@@ -102,7 +102,7 @@ const ProjectCard = ({
 
         <h3 className="text-2xl md:text-3xl font-bold text-white">{title}</h3>
 
-        <p className="mt-3 text-neutral-300 text-base leading-relaxed text-justify">
+        <p className="mt-3 whitespace-pre-line text-neutral-300 text-base leading-relaxed">
           {description}
         </p>
 

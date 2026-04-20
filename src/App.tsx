@@ -15,8 +15,9 @@ export default function App() {
       <Hero
         imageUrl={heroUrl}
         name="Pablo Santana Suárez"
-        title="Junior Backend Developer"
-        tagline="Especializado en NestJS, Docker y despliegue de aplicaciones reales en producción con CI/CD"
+        title="Fullstack Developer Junior"
+        tagline="Desarrollo y despliego aplicaciones web completas con React, NestJS y Docker.
+        APIs, lógica de negocio y despliegue real en VPS."
       />
       <PortFolioHeader/>
       <About />

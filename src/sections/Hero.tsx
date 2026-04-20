@@ -41,7 +41,7 @@ export default function Hero({ imageUrl, name, title, tagline }: Props) {
             href="#projects"
             className="px-8 py-3 bg-white text-neutral-900 font-medium shadow hover:bg-neutral-200 transition"
           >
-            Ver proyectos en producción
+            Ver proyectos
           </a>
 
           <a
@@ -52,6 +52,9 @@ export default function Hero({ imageUrl, name, title, tagline }: Props) {
           >
             GitHub
           </a>
+        </div>
+        <div className="mt-6 text-sm text-neutral-100">
+          Proyectos reales desplegados en producción en VPS con Docker
         </div>
       </div>
     </section>

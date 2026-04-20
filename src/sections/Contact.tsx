@@ -11,8 +11,13 @@ const Contact = () => {
           Pablo Santana Suárez
         </h2>
 
-        <p className="mt-2 text-neutral-400 text-sm md:text-base">
-          Junior Backend Developer · Abierto a nuevas oportunidades
+        <p className="mt-3 text-neutral-400 text-sm md:text-base">
+          Fullstack Developer Junior · Abierto a oportunidades en frontend,
+          backend y fullstack
+        </p>
+
+        <p className="mt-2 text-neutral-500 text-sm">
+          Si encajo en tu equipo, puedes contactarme directamente
         </p>
 
         <div className="mx-auto mt-4 h-[2px] w-28 bg-purple-500 rounded" />
