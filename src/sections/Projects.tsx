@@ -43,7 +43,7 @@ const projects = [
     ],
     techs: ["NestJS", "React", "Docker", "VPS"],
     demoUrl: "https://pigeons.navet21dev.es/",
-    codeUrl: "https://github.com/Navet21",
+    privateCode: true,
   }
 ];
 
